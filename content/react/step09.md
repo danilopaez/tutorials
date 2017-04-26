@@ -16,7 +16,13 @@ If you try to use the app after removing this package, you will notice that none
 
 ### Defining methods
 
+
 First, we need to define some methods. We need one method for each database operation we want to perform on the client. Methods should be defined in code that is executed on the client and the server - we will discuss this a bit later in the section titled _Optimistic UI_.
+
+Add Check Package
+```bash
+meteor add check
+```
 
 {{> DiffBox step="9.2" tutorialName="simple-todos-react"}}
 
